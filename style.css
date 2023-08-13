@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div {
+  margin-top: 50px;
+}
+h1 {
+  font-size: 20px;
+}
+label {
+  display: inline-block;
+  min-width: 145px;
+}
+input {
+  border-radius: 5px;
+  background-color: rgb(244, 244, 244);
+  padding: 5px 10px;
+  margin: 2px;
+  transition: all 0.2s ease-out;
+  border: 2px solid teal;
+}
+input:hover {
+  outline: none; /* когда элемент активный, 
+  контура не видно */
+  /* border: none; */
+  border: 2px solid white;
+}
+button {
+  cursor: pointer; /* при наведении на кнопку курсор 
+  меняется на указатель */
+  margin-top: 15px;
+  width: 155px;
+  padding: 1.5%;
+  border-radius: 8px;
+  background-color: teal;
+  color: white;
+  border: 1px solid teal;
+  transition: all 0.5s ease-out;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.passw_link {
+  width: 350px;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background: transparent;
+  color: teal;
+  border: 1px solid teal;
+}
